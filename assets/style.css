@@ -1,0 +1,30 @@
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: var(--blur);
+    width: 33%;
+    height: 40%;
+}
+
+.h2{
+    color: var(--base);
+}
+
+body{
+    text-align: center;
+    background: rgb(13, 71, 180);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.controls{
+    margin-bottom: 50px;
+}
